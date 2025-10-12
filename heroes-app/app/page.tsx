@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 export default function Home() {
@@ -6,7 +7,22 @@ export default function Home() {
     <h2 className="text-center text-5xl text-white font-outline-2 p-5 m-10 alfa-slab">Heroes.</h2>
     <div className="text-left text-4xl text-white font-outline-2 p-5 m-10 alfa-slab border-2 rounded-[0px_50px_50px_50px] border-solid"> Your heroes.</div>
     <div className="text-right text-4xl text-white font-outline-2 p-5 m-10 alfa-slab border-2 rounded-[50px_0px_50px_50px] border-solid"> Your choice.</div>
-     
+
+    <div className=" bg-white rounded-2xl drop-shadow-md m-20">
+      <h2 className="text-center text-3xl text-black alfa-slab pt-5">Which squard schall win?</h2>
+      <div className="flex justify-center items-center pb-5 m-5">
+        <img className="h-32 w-32 p-2 mx-5"
+          src="justice_league.png" 
+          alt="Justice_league"></img>
+        <img className="h-32 w-32 p-2 mx-5"
+          src="bird_of_prey.png" 
+          alt="bird_of_prey"></img>
+        <img className="h-32 w-32 p-2 mx-5"
+          src="blade.png" 
+          alt="blade"></img>
+      </div>
+    </div>
+
     <div className="flex justify-between items-center my-15">
       <div className=" bg-white rounded-[0px_20px_20px_0px] border-solid border-black border-2">
         <h2 className="text-6xl text-[#6192D3] p-3 m-5">Jusctice League.</h2>
