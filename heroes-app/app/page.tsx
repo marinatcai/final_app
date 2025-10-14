@@ -75,7 +75,7 @@ export default function Home() {
       </div>
       <div className="center h-10 w-1 bg-white"></div>
       <div className=" bg-white rounded-2xl h-70 w-180 border-solid border-black border-2 mb-20">
-        <h2 className="text-center text-6xl text-[#BA67C5] p-5">Suicide Squard.</h2>
+        <h2 className="text-center text-6xl text-[#BA67C5] p-5">Suicide Squad.</h2>
         <p className=" text-center text-xl text-[#474747] p-3 mx-10">The Suicide Squad consists of a number of members who are actually incarcerated in a maximum-security prison. In order to somehow reduce their sentences, they embark on dangerous missions that often result in death.</p>
       </div>
       <div className=" bg-white rounded-3xl h-28 w-100 border-solid border-[#DF4747] border-10  drop-shadow-black drop-shadow-2xl mb-50">
