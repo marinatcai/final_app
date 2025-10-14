@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -79,7 +81,9 @@ export default function Home() {
         <p className=" text-center text-xl text-[#474747] p-3 mx-10">The Suicide Squad consists of a number of members who are actually incarcerated in a maximum-security prison. In order to somehow reduce their sentences, they embark on dangerous missions that often result in death.</p>
       </div>
       <div className=" bg-white rounded-3xl h-28 w-100 border-solid border-[#DF4747] border-10  drop-shadow-black drop-shadow-2xl mb-50">
-        <h2 className="text-center p-6 text-4xl text-white font-outline-2 alfa-slab">Vote now!</h2>
+        <Link href="/vote">
+          <h2 className="text-center p-6 text-4xl text-white font-outline-2 alfa-slab">Vote now!</h2>
+        </Link>
       </div>
     </div>
     </>
