@@ -18,7 +18,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Sora:wght@100..800&display=swap" rel="stylesheet"/>
-        
+
       </head>
       <body className="min-w-screen min-h-screen bg-[#1e5464]">
         {children}
