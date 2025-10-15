@@ -16,7 +16,6 @@ export default function VotePage() {
          // here i want link to next page your info
         <Link href="/your-info" >
         </Link>
-        // here i want link to next page your info
     }
 
 // set Vote title to the left
