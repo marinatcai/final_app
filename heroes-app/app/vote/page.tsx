@@ -14,7 +14,7 @@ export default function VotePage() {
         // here i want to return the choice and show it in console log
 
          // here i want link to next page your info
-        <Link href="/your_info" >
+        <Link href="/your-info" >
         </Link>
         // here i want link to next page your info
     }
@@ -24,7 +24,7 @@ export default function VotePage() {
     return (
         <>
             <div className="flex flex-col justify-items items-center mt-20">  
-                <h2 className="p-3 text-4xl text-white font-outline-2 alfa-slab">Vote.</h2>
+                <h2 className="p-3 text-5xl text-white font-outline-2 alfa-slab">Vote.</h2>
                 <div className="bg-white h-80 w-200 rounded-2xl drop-shadow-black drop-shadow-2xl mb-10">
                     <h2 className="text-center p-6 text-3xl text-white font-outline-2 alfa-slab">Which squad shall win?</h2>
                     <div className="flex justify-evenly mx-10 mb-5">
