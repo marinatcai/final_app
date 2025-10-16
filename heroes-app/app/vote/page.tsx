@@ -10,13 +10,7 @@ export default function VotePage() {
       {name: "Suicide Squad", image:"blade.png"},
     ]
 
-    function vote() {
-        // here i want to return the choice and show it in console log
-
-         // here i want link to next page your info
-        <Link href="/your-info" >
-        </Link>
-    }
+// here i want to return the choice and show it in console log
 
 // set Vote title to the left
 
@@ -32,10 +26,11 @@ export default function VotePage() {
                         ))}
                     </div>
                 </div>
-                <button className=" bg-[#F86C6F]  h-12 w-48 text-white text-3xl font-outline-2 alfa-slab cursor-pointer rounded-xl border-3 border-white"
-                onClick={vote}>
+                <Link href="/your-info">
+                <h2 className="text-center bg-[#F86C6F]  h-12 w-48 text-white text-3xl font-outline-2 alfa-slab cursor-pointer rounded-xl border-3 border-white">
                 Continue
-                </button>
+                </h2>
+                </Link>
             </div>
         </>
     );
