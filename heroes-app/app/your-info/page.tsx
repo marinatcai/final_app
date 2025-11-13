@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import InfoItem from "../components/info-field";
 
 export default function YourInfoPage() {
@@ -13,7 +14,7 @@ export default function YourInfoPage() {
         // here i want to use redirect to next page graphics based on form input: https://stackoverflow.com/questions/70487236/redirect-to-another-page-based-on-form-input-in-next-js
     };
 
-return (
+  return (
     <>
         <div className="flex flex-col justify-items items-center m-10">
             <h2 className="p-3 text-5xl text-white font-outline-2 alfa-slab m-10">Your info.</h2>
@@ -29,15 +30,17 @@ return (
                         <input type="checkbox" className="h-8 w-8  border-black border-2 rounded-xl ml-15 drop-shadow-gray-600 drop-shadow-sm"></input>
                         <label className="text-center text-base text-black alfa-slab p-2 mx-5 mb-6">I have read and understand the rules.</label>
                     </div>
+                    <Link href="/result">
                     <button className="bg-[#7590C2]  h-11 w-60 text-white text-base alfa-slab cursor-pointer rounded-lg border-2 border-black ml-10"
                     onClick={sumbitInfo}>
                     Submit
                     </button>
+                    </Link>
                 </form>
             </div> 
         </div>
     </>
 
-);
+  );
 
 }
