@@ -10,21 +10,14 @@ export default function VotePage() {
       {name: "Suicide Squad", image:"blade.png"},
     ]
 
-    function vote() {
-        // here i want to return the choice and show it in console log
-
-         // here i want link to next page your info
-        <Link href="/your_info" >
-        </Link>
-        // here i want link to next page your info
-    }
+// here i want to return the choice and show it in console log
 
 // set Vote title to the left
 
     return (
         <>
             <div className="flex flex-col justify-items items-center mt-20">  
-                <h2 className="p-3 text-4xl text-white font-outline-2 alfa-slab">Vote.</h2>
+                <h2 className="p-3 text-5xl text-white font-outline-2 alfa-slab">Vote.</h2>
                 <div className="bg-white h-80 w-200 rounded-2xl drop-shadow-black drop-shadow-2xl mb-10">
                     <h2 className="text-center p-6 text-3xl text-white font-outline-2 alfa-slab">Which squad shall win?</h2>
                     <div className="flex justify-evenly mx-10 mb-5">
@@ -33,10 +26,11 @@ export default function VotePage() {
                         ))}
                     </div>
                 </div>
-                <button className=" bg-[#F86C6F]  h-12 w-48 text-white text-3xl font-outline-2 alfa-slab cursor-pointer rounded-xl border-3 border-white"
-                onClick={vote}>
+                <Link href="/your-info">
+                <h2 className="text-center bg-[#F86C6F]  h-12 w-48 text-white text-3xl font-outline-2 alfa-slab cursor-pointer rounded-xl border-3 border-white">
                 Continue
-                </button>
+                </h2>
+                </Link>
             </div>
         </>
     );
