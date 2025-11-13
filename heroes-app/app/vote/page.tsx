@@ -5,7 +5,7 @@ import VoteItem from "../components/vote-item";
 
 export default function VotePage() {
     const items =[
-      {name: "Jusctice League", image:"justice_league.png"},
+      {name: "Justice League", image:"justice_league.png"},
       {name: "Birds of Prey", image:"bird_of_prey.png"},
       {name: "Suicide Squad", image:"blade.png"},
     ]
